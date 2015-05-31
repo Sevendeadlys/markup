@@ -20,7 +20,7 @@ class handler:
                 match.group(0)
             return result
 
-            return substitution
+        return substitution
 
 class HTMLRender(handler):
     def start_document(self):
